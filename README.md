@@ -7,7 +7,7 @@ We did not use some tiles from the following full images because they included C
 
 To reproduce our work...
 - tile the 230 images found in `Data/Full_Images` using `Code/tile_images.ipynb`
-- label tiled images using (Roboflow)[https://docs.roboflow.com/]
+- label tiled images using [Roboflow](https://docs.roboflow.com/)
 - train the model and evaluate it on the test set using `Code/run_model.ipynb`
 - examine model errors using `Code/NOTEBOOK`
 
