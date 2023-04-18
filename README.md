@@ -12,4 +12,4 @@ To reproduce our work...
 - train the model and evaluate it on the test set using `Code/run_model.ipynb`
 - examine model errors using `Code/NOTEBOOK`
 
-Our final model weights are available at LINK.
+Our final model weights are available [here](https://drive.google.com/file/d/1rb_e_N_TLye7oJ_bDhwDucriEomuPwrt/view?usp=sharing).
