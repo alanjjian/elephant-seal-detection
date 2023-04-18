@@ -42,5 +42,7 @@ RUN git clone https://github.com/martinzlocha/anchor-optimization.git
 
 RUN wget https://github.com/fizyr/keras-retinanet/releases/download/0.5.1/resnet50_coco_best_v2.1.0.h5 
 
+RUN wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1rb_e_N_TLye7oJ_bDhwDucriEomuPwrt' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1rb_e_N_TLye7oJ_bDhwDucriEomuPwrt" -O resnet50_final_seal_weights.h5 && rm -rf /tmp/cookies.txt
+
 CMD ["python3", "keras-retinanet/setup.py", "build_ext", "--inplace"]
 
