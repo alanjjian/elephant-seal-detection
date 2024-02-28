@@ -1,5 +1,4 @@
-# mids-251-elephant-seal
-Final Project for MIDS 251
+# Pinniped Detection Project
 
 Notes about the data:
 We did not use some tiles from the following full images because they included California Sea Lions in addition to Northern Elephant Seals: 
